@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.wraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pdf-container {
+    margin: 1px;
+    width: 790px;
+    height: 1118px;
+    position: relative;
+}
+
+.pdf-img {
+    width: 100%;
+    height: 100%;
+}
+
+.print {
+    display: flex;
+    text-decoration-line: underline;
+    font-weight: bold;
+    align-items: center;
+} 
+
+/* ? Recipient */
+.nationality-recipient {
+    position: absolute;
+    top: 156px;
+    left: 208px;
+    width: 107px;
+    height: 20px;
+    background-color: rgb(88, 185, 230);
+}
+
+.IdCardNum-recipient {
+    position: absolute;
+    top: 156px;
+    left: 500px;
+    width: 187px;
+    height: 20px;
+    background-color: rgb(88, 185, 230);
+}
+
+.name-recipient {
+    position: absolute;
+    top: 203px;
+    left: 205px;
+    width: 258px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.phone-num_recipient {
+    position: absolute;
+    top: 203px;
+    left: 553px;
+    width: 135px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.adress-in-korea_recipient {
+    position: absolute;
+    top: 238px;
+    left: 205px;
+    width: 483px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+/* ? Recipient */
+
+
+/* ? Provider */
+.nationality-provider {
+    position: absolute;
+    top: 336px;
+    left: 208px;
+    width: 92px;
+    height: 20px;
+    background-color: rgb(88, 185, 230);
+}
+
+.IdCardNum-provider {
+    position: absolute;
+    top: 336px;
+    left: 490px;
+    width: 187px;
+    height: 20px;
+    background-color: rgb(88, 185, 230);
+}
+
+.name-provider {
+    position: absolute;
+    top: 376px;
+    left: 207px;
+    width: 258px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.phone-num_provider {
+    position: absolute;
+    top: 376px;
+    left: 553px;
+    width: 135px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+/* ? Provider */
+
+
+.year {
+    position: absolute;
+    top: 650px;
+    left: 218px;
+    width: 45px;
+    height: 16px;
+    background-color: rgb(88, 185, 230);
+}
+
+.month {
+    position: absolute;
+    top: 650px;
+    left: 318px;
+    width: 25px;
+    height: 16px;
+    background-color: rgb(88, 185, 230);
+}
+
+.day {
+    position: absolute;
+    top: 650px;
+    left: 405px;
+    width: 25px;
+    height: 16px;
+    background-color: rgb(88, 185, 230);
+}
+
+.name-provider_sign{
+    position: absolute;
+    top: 681px;
+    left: 330px;
+    width: 85px;
+    height: 16px;
+    background-color: rgb(88, 185, 230);
+}
+
+.signature {
+    position: absolute;
+    top: 681px;
+    left: 450px;
+    width: 110px;
+    height: 16px;
+    background-color: rgb(88, 185, 230);
+}
+

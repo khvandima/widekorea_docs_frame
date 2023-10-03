@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.wraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pdf-container {
+    margin: 1px;
+    width: 790px;
+    height: 1118px;
+    position: relative;
+}
+
+.pdf-img {
+    width: 100%;
+    height: 100%;
+}
+
+.surname {
+    position: absolute;
+    top: 346px;
+    left: 200px;
+    width: 145px;
+    height: 20px;
+    background-color: rgb(88, 185, 230);
+}
+
+
+.name {
+    position: absolute;
+    top: 346px;
+    left: 370px;
+    width: 145px;
+    height: 20px;
+    background-color: rgb(88, 185, 230);
+}
+
+.year {
+    position: absolute;
+    top: 385px;
+    left: 210px;
+    width: 80px;
+    height: 16px;
+    background-color: rgb(88, 185, 230);
+}
+
+.month {
+    position: absolute;
+    top: 385px;
+    left: 310px;
+    width: 60px;
+    height: 16px;
+    background-color: rgb(88, 185, 230);
+}
+
+.day {
+    position: absolute;
+    top: 385px;
+    left: 390px;
+    width: 60px;
+    height: 16px;
+    background-color: rgb(88, 185, 230);
+}
+
+.passport-num {
+    position: absolute;
+    top: 447px;
+    left: 198px;
+    width: 105px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.passport-issue-date {
+    position: absolute;
+    top: 447px;
+    left: 430px;
+    width: 98px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.adress-in-korea {
+    position: absolute;
+    top: 477px;
+    left: 198px;
+    width: 330px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.phone-num {
+    position: absolute;
+    top: 508px;
+    left: 582px;
+    width: 133px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.date {
+    position: absolute;
+    top: 735px;
+    left: 300px;
+    width: 110px;
+    height: 16px;
+    background-color: rgb(88, 185, 230);
+}
+
+.signature {
+    position: absolute;
+    top: 735px;
+    left: 603px;
+    width: 110px;
+    height: 16px;
+    background-color: rgb(88, 185, 230);
+}
+
+.print {
+    display: flex;
+    text-decoration-line: underline;
+    font-weight: bold;
+    align-items: center;
+} 
