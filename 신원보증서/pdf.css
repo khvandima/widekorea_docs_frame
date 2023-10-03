@@ -21,6 +21,15 @@
     height: 100%;
 }
 
+.print {
+    display: flex;
+    text-decoration-line: underline;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+/* ? Guarantee Recipient */
 .surname {
     position: absolute;
     top: 155px;
@@ -93,92 +102,116 @@
     height: 25px;
     background-color: rgb(88, 185, 230);
 }
+/* ? Guarantee Recipient */
+
+
+/* ? Guarantor */
+.fullname {
+    position: absolute;
+    top: 432px;
+    left: 185px;
+    width: 255px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.nationality-guarantor {
+    position: absolute;
+    top: 472px;
+    left: 185px;
+    width: 255px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.date-of-birth-guarantor {
+    position: absolute;
+    top: 519px;
+    left: 185px;
+    width: 255px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.phone-num-guarantor {
+    position: absolute;
+    top: 519px;
+    left: 550px;
+    width: 155px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.adress-in-korea-guarantor {
+    position: absolute;
+    top: 560px;
+    left: 185px;
+    width: 455px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+
+.relationship {
+    position: absolute;
+    top: 603px;
+    left: 280px;
+    width: 205px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+.period-of-guarantee {
+    position: absolute;
+    top: 736px;
+    left: 280px;
+    width: 205px;
+    height: 25px;
+    background-color: rgb(88, 185, 230);
+}
+/* ? Guarantor */
+
+
 
 .year {
     position: absolute;
-    top: 410px;
-    left: 210px;
-    width: 80px;
-    height: 16px;
+    top: 965px;
+    left: 490px;
+    width: 50px;
+    height: 20px;
     background-color: rgb(88, 185, 230);
 }
 
 .month {
     position: absolute;
-    top: 410px;
-    left: 305px;
-    width: 45px;
-    height: 16px;
-    background-color: rgb(88, 185, 230);
-    font-size: 12px;
-}
-
-.day {
-    position: absolute;
-    top: 410px;
-    left: 360px;
-    width: 40px;
-    height: 16px;
-    background-color: rgb(88, 185, 230);
-}
-
-.passport-num {
-    position: absolute;
-    top: 460px;
-    left: 180px;
-    width: 105px;
-    height: 25px;
-    background-color: rgb(88, 185, 230);
-}
-
-.passport-issue-date {
-    position: absolute;
-    top: 460px;
-    left: 410px;
-    width: 115px;
-    height: 25px;
-    background-color: rgb(88, 185, 230);
-}
-
-.adress-in-korea {
-    position: absolute;
-    top: 489px;
-    left: 170px;
-    width: 545px;
-    height: 25px;
-    background-color: rgb(88, 185, 230);
-}
-
-.phone-num {
-    position: absolute;
-    top: 515px;
-    left: 555px;
-    width: 159px;
+    top: 965px;
+    left: 580px;
+    width: 30px;
     height: 20px;
     background-color: rgb(88, 185, 230);
 }
 
-.date {
+.day {
     position: absolute;
-    top: 750px;
-    left: 279px;
-    width: 110px;
-    height: 16px;
+    top: 965px;
+    left: 645px;
+    width: 30px;
+    height: 20px;
+    background-color: rgb(88, 185, 230);
+}
+
+.fullnames-sign {
+    position: absolute;
+    top: 1002px;
+    left: 450px;
+    width: 155px;
+    height: 20px;
     background-color: rgb(88, 185, 230);
 }
 
 .signature {
     position: absolute;
-    top: 750px;
-    left: 585px;
-    width: 128px;
-    height: 16px;
+    top: 1002px;
+    left: 618px;
+    width: 85px;
+    height: 20px;
     background-color: rgb(88, 185, 230);
-}
-
-.print {
-    display: flex;
-    text-decoration-line: underline;
-    font-weight: bold;
-    align-items: center;
 } 
